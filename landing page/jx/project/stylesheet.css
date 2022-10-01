@@ -1,0 +1,204 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background:white;
+    
+    min-height: 100vh;
+    border:1px solid black;
+}
+
+header{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    padding:30px 100px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    height: 13vh;
+    padding: 2% 2%;
+    background:white;
+}
+
+
+header .logo{
+    position:relative;
+    margin:5px 5px;
+}
+
+header .logo img{
+    height:100px;
+    width:150px;
+}
+
+header ul{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+
+header ul li{
+    list-style:none;
+    margin-left:20px;
+    width:135px;
+}
+
+header ul li a{
+    text-decoration:none;
+    padding: 10px 28px;
+    color:black;
+    border-radius:30px;
+    text-transform:uppercase;
+    font-family:'Roboto Condensed', sans-serif;
+}
+
+header ul #contacts{
+    border:2px solid blue;
+    border-radius:30px;
+    padding: 10px 0;
+}
+
+header ul li a:hover {
+    background:blue;
+    color:white; 
+    border:3px solid blue;
+}
+
+#profilephoto_{
+    background-image: url(profilephoto.jpeg);
+    margin-top:200px;
+    margin-left: 5%;
+    width:400px;
+    height:400px;
+    background-size: cover;
+}
+
+#home{
+    display:flex;
+}
+
+.homeTextbox{
+    display:block;
+    padding-top:40vh;
+    height:100vh;
+    padding-left:10%;
+    font-size:30px;
+}
+
+.homeTextbox h3,
+.homeTextbox h1{
+    font-weight:1200;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.homeTextbox .p{
+    font-weight:300;
+    font-size:20px;
+}
+
+#charles2022{
+    padding-left: 270px;
+}
+
+#fullname{
+    color:blue;
+}
+
+.data{  
+    display: block;
+    width:100%;
+    height:100vh;
+    text-align:center;
+}
+
+#aboutme{
+    padding-top:40vh;
+    text-align:left;
+    padding-left:25%;
+    background: linear-gradient(45deg, #009ffd, #2a2a72);
+    background-size: cover;
+    display:block;
+    color:white;
+}
+
+#aboutme #about-me{
+    font-family:'Roboto Condensed', sans-serif;
+    text-decoration:underline;
+    font-size:60px;
+}
+
+#aboutme p{
+    width:50%;
+}
+
+#aboutme h1{
+    font-family:'Roboto Condensed', sans-serif;
+}
+
+#skills{
+    padding-top: 40vh;
+}
+
+#skills h1{
+    font-family:'Roboto Condensed', sans-serif;
+}
+
+#hobby{
+    padding-top:14vh;
+    height:80vh;
+}
+
+#hobby h1{
+    font-family:'Roboto Condensed', sans-serif;
+}
+
+#hobby ul{
+    display:flex;
+    list-style:none;
+    justify-content:center;
+    color:black;
+    padding-top:10vh;
+}
+
+#hobby ul li{
+    margin-right:100px;
+    padding:50px 50px;
+    font-size:20px;
+}
+
+#contact{
+    height:20vh;
+    background: linear-gradient(90deg, #09c6f9, #045de9)
+}
+
+#contact h1{
+    font-family:'Roboto Condensed', sans-serif;
+    color:white;
+}
+
+#contact ul{
+    display: flex;
+    justify-content:center;
+    list-style:none;
+    padding:20px 0;
+}
+
+#contact ul li{
+    color:white;
+    font-size:30px;
+    margin-left: 40px;
+}
+
+#contact ul li:hover{
+    transform:translateY(-10px)
+}

@@ -1,0 +1,250 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+background-color: darkblue;
+
+}
+
+section {
+  margin: 5%;
+  padding: 5%;
+  border-radius: 20px;
+}
+
+.container {
+  margin: 15px;
+  padding: 15px;
+  display: inline-flex;
+  max-width: 1920px;
+  max-height: 1080px;
+}
+
+button {
+  transition: transform 0.3s ease;
+}
+
+button::after, button::before {
+  content: "";
+  position: absolute;
+  opacity: 0.3;
+  border-radius: inherit;
+  width: 100%;
+  height: 100%;
+  left: 0%;
+  bottom: 0%;
+  z-index: -1;
+  transition: transform 0.4s ease;
+}
+
+button:hover {
+  transform: translate(-12px,-12px);
+}
+
+button:hover::after {
+  transform: translate(6px,6px);
+}
+
+button:hover:before {
+  transform: translate(12px,12px);
+}
+
+
+h1 {
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  margin: 0px;
+  padding: 50px;
+  background-image: url("PICS/4a0ca034f88dedc9fb49ea846476198a.gif");
+  background-repeat: initial;
+  background-position: center;
+  
+}
+
+h4 {
+  font-size: xx-large;
+  text-align: left;
+}
+
+.me {
+  height: 400px;
+  width: 320px;
+}
+
+.me::after, button::before {
+  content: "";
+  position: absolute;
+  opacity: 0.3;
+  border-radius: inherit;
+  width: 100%;
+  height: 100%;
+  left: 0%;
+  bottom: 0%;
+  z-index: -1;
+  transition: transform 0.3s ease;
+}
+
+.me:hover {
+  transform: translate(-12px,-12px);
+}
+
+.me:hover::after {
+  transform: translate(6px,6px);
+}
+
+.me:hover:before {
+  transform: translate(12px,12px);
+}
+
+#h2 header {
+  margin: 100%;
+  padding: 100%;
+}
+
+
+.content {
+  margin: 15px;
+  padding: 15px;
+  background: linear-gradient(#B621FE, #1FD1F9);
+}
+
+.main {
+  background: linear-gradient(#B621FE, #1FD1F9);
+}
+
+.effect button {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  width: 1000px;
+  height: max-content;
+  color: black;
+  border-radius: 0px;
+  box-shadow: 0 0 0 0 rgba(143, 64, 248, 0.5), 0 0 0 0 rgba(39, 200, 255, 0.5);
+  transition: transform 0.3s ease, box-shadow 0.3 ease;
+}
+
+.effect button::after {
+  overflow: hidden;
+  content:"" ;
+  width: 1000px;
+  height: 990px;
+  position: absolute;
+  top: -50px;
+  left: -100px;
+  z-index: -1;
+  transition: transform 0.5 ease;
+}
+
+.effect button:hover {
+  color: #B621FE;
+  background: #1FD1F9;
+  overflow: hidden;
+  transform: translate(0,-6px);
+  box-shadow:  10px -10px 25px 0 rgba(143, 64, 248, 0.5), -10px 10px 25px 0 rgba(39, 200, 255, 0.5);
+  transition-delay: 0.1s;
+}
+
+
+
+
+.favourite {
+  display: inline-flex;
+}
+
+
+table, td {
+  border: 2px solid;
+  width: 75%;
+  height: 75%;
+  text-align: center;
+  border-collapse: collapse;
+  color: black;
+  font-size: 20;
+}
+
+
+.favourite {
+  display: inline-flex;
+  width: 50%;
+  background-color: whitesmoke; 
+}
+
+caption {
+  display: inline-block;
+  width: 50%;
+  padding: 5%;
+  background-color: whitesmoke;
+  font-family: 'Roboto', sans-serif;
+}
+
+.achievements {
+  margin: 5%;
+  padding: 5%;
+}
+
+
+
+th {
+  background-color:  #1FD1F9;
+  color: black;
+}
+
+td {
+  background-color: lightblue;
+}
+
+tr :hover { 
+  background-color:#B621FE;
+}
+
+article {
+  color: white
+}
+
+.description #text {
+  background: linear-gradient(#B621FE, #1FD1F9);
+  font-size: x-large;
+  
+}
+
+.description {
+  margin: 3%;
+  padding: 3%;
+  font-size: large;
+  border-radius: 20px;
+}
+
+button {
+  position: center;
+}
+
+.quote button {
+  margin: 5%;
+  padding: 5%;
+  font-style: italic;
+  border-radius: 50px;
+  background: linear-gradient(#B621FE, #1FD1F9);
+}
+
+
+
+#quote h2 {
+  color: white;
+  text-align: center;
+}
+
+.top button {
+  border-radius: 50px;
+  padding: 6px 15px;
+  background: linear-gradient(#B621FE, #1FD1F9);
+}
+
+footer {
+  background-image: url("PICS/4a0ca034f88dedc9fb49ea846476198a.gif");
+  margin: 0%;
+  padding: 10%;
+  font-size: 2em;
+}
